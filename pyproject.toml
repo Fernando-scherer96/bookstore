@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstore"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Scherer <fernando.scherer96@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.1.1"
+factory-boy = "^3.3.0"
+django = "^5.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
